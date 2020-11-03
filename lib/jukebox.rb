@@ -213,7 +213,7 @@ def run(songs)
     elsif input == "help"
       return help
     elsif input == "list"
-      return list
+      return list(songs)
     end
   end
   return exit_jukebox
