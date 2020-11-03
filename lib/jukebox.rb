@@ -152,11 +152,11 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   binding.pry
-  if input == 1
+  if input == "1"
     puts "Playing Phoenix - 1901"
-  elsif input == 2
+  elsif input == "2"
     puts "Tokyo Police Club - Wait Up"
-  elsif input == 3
+  elsif input == "3"
     puts "Sufjan Stevens - Too Much"
   elsif input == 4
     puts "The Naked and the Famous - Young Blood"
