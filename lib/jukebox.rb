@@ -115,7 +115,8 @@ songs = [
 
 
 
-
+def help
+end
 
 
 
