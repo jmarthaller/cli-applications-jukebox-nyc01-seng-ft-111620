@@ -152,7 +152,21 @@ def play(songs)
   puts "Please enter a song name or number:"
   input = gets.strip
   if input == 1
-    puts "Playing #{songs[0]}"
+    puts "Playing Phoenix - 1901"
+  elsif input == 2
+  puts "Tokyo Police Club - Wait Up"
+  elsif input == 2
+  puts "Tokyo Police Club - Wait Up"
+  elsif input == 2
+  puts "Tokyo Police Club - Wait Up"
+  elsif input == 2
+  puts "Tokyo Police Club - Wait Up"
+  elsif input == 2
+  puts "Tokyo Police Club - Wait Up"
+  elsif input == 2
+  puts "Tokyo Police Club - Wait Up"
+  elsif input == 2
+  puts "Tokyo Police Club - Wait Up"
   end
 end
 puts play(songs)
