@@ -197,16 +197,7 @@ end
 def run(songs)
   puts "Please enter a command:"
   input = gets.strip
-    #case input
-  # when "play"
-  #   return play(songs)
-  # when "list"
-  #   return list(songs)
-  # when "help"
-  #   return help
-  # when "exit"
-  #   return exit_jukebox
-  # end
+
   until input == "exit"
     if input == "play"
       return play(songs)
