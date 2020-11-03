@@ -144,8 +144,8 @@ def list(songs)
 end
 
 
-def 
-  puts
+def exit_jukebox
+  puts "Goodbye"
 end
 
 
