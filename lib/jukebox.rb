@@ -12,6 +12,7 @@ songs = [
   "Amos Lee - Keep It Loose, Keep It Tight"
 ]
 
+
 def help 
   puts "I accept the following commands:"
   puts "- help : displays this help message"
@@ -20,17 +21,17 @@ def help
   puts "- exit : exits this program"
 end
 
+
 def list(songs)
   songs.each_with_index do |ele, i|
     puts "#{i + 1}. #{ele}"
   end
 end
 
+
 def exit_jukebox
   puts "Goodbye"
 end
-
-
 
 
 def play(songs)
@@ -78,13 +79,6 @@ def play(songs)
 end
 
 
-
-
-
-
-
-
-
 def run(songs)
   puts "Please enter a command:"
   input = gets.strip
@@ -100,56 +94,4 @@ def run(songs)
     return exit_jukebox
   end
 end
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# def play(songs)
-#   puts "Please enter a song name or number:"
-#   input = gets.strip
-#   songs.each_with_index do |song, i|
-#     if song == input
-#       puts "Playing #{song}"
-#     elsif (i+1).to_s == input
-#       puts "Playing #{(i+1).to_s}"
-#     else
-#       puts "Invalid input, please try again"
-#     end
-#   end
-# end
-
-# def play(songs)
-#   puts "Please enter a song name or number:"
-#   input = gets.strip
-#   #binding.pry
-#   i = 0
-#   while i < songs.length
-#     if songs[i] == input
-#       return "Playing #{song[i]}"
-#       binding.pry
-#     end
-#     i += 1
-#   end
-#   return "Invalid input, please try again"
-# end
-
-
-
-
-
-
 
