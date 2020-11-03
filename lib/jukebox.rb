@@ -206,6 +206,7 @@ def run
       help
     elsif input == "list"
       list
+    end
   end
   exit_jukebox
 end
