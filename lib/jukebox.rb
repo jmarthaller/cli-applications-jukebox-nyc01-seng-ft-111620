@@ -186,7 +186,7 @@ def play(songs)
   elsif input == "Harry Chapin - Cats in the Cradle"
   puts "Playing Harry Chapin - Cats in the Cradle"
   elsif input == "Amos Lee - Keep It Loose, Keep It Tight"
-  puts "Playing Phoenix - 1901"
+  puts "Playing Amos Lee - Keep It Loose, Keep It Tight"
   else 
     puts "Invalid input, please try again"
   end
