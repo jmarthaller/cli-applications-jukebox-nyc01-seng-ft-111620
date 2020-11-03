@@ -150,7 +150,7 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  gets.strip
+  input = gets.strip
   if input == 1
     puts "Playing #{songs[0]}"
   end
