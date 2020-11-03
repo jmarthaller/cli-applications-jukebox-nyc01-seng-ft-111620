@@ -216,6 +216,6 @@ def run
       return list
     end
   end
-  exit_jukebox
+  return exit_jukebox
 end
 
