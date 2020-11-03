@@ -209,11 +209,11 @@ def run
   # end
   until input == "exit"
     if input == "play"
-      play
+      return play
     elsif input == "help"
-      help
+      return help
     elsif input == "list"
-      list
+      return list
     end
   end
   exit_jukebox
