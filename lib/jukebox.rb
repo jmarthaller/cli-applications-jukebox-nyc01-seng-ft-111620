@@ -207,15 +207,15 @@ def run(songs)
   # when "exit"
   #   return exit_jukebox
   # end
-  # until input == "exit"
-  #   if input == "play"
-  #     return play
-  #   elsif input == "help"
-  #     return help
-  #   elsif input == "list"
-  #     return list
-  #   end
-  # end
-  # return exit_jukebox
+  until input == "exit"
+    if input == "play"
+      return play
+    elsif input == "help"
+      return help
+    elsif input == "list"
+      return list
+    end
+  end
+  return exit_jukebox
 end
 
