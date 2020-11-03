@@ -158,17 +158,17 @@ def play(songs)
     puts "Tokyo Police Club - Wait Up"
   elsif input == "3"
     puts "Sufjan Stevens - Too Much"
-  elsif input == 4
+  elsif input == "4"
     puts "The Naked and the Famous - Young Blood"
-  elsif input == 5
+  elsif input == "5"
     puts "(Far From) Home - Tiga"
-  elsif input == 6
+  elsif input == "6"
     puts "The Cults - Abducted"
-  elsif input == 7
+  elsif input == "7"
     puts "Phoenix - Consolation Prizes"
-  elsif input == 8
+  elsif input == "8"
     puts "Harry Chapin - Cats in the Cradle"
-  elsif input == 9
+  elsif input == "9"
     puts "Amos Lee - Keep It Loose, Keep It Tight"
   end
 end
