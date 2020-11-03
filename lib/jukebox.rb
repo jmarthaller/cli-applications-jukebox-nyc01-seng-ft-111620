@@ -155,21 +155,22 @@ def play(songs)
     puts "Playing Phoenix - 1901"
   elsif input == 2
   puts "Tokyo Police Club - Wait Up"
-  elsif input == 2
-  puts "Tokyo Police Club - Wait Up"
-  elsif input == 2
-  puts "Tokyo Police Club - Wait Up"
-  elsif input == 2
-  puts "Tokyo Police Club - Wait Up"
-  elsif input == 2
-  puts "Tokyo Police Club - Wait Up"
-  elsif input == 2
-  puts "Tokyo Police Club - Wait Up"
-  elsif input == 2
-  puts "Tokyo Police Club - Wait Up"
+  elsif input == 3
+  puts "Sufjan Stevens - Too Much"
+  elsif input == 4
+  puts "The Naked and the Famous - Young Blood"
+  elsif input == 5
+  puts "(Far From) Home - Tiga"
+  elsif input == 6
+  puts "The Cults - Abducted"
+  elsif input == 7
+  puts "Phoenix - Consolation Prizes"
+  elsif input == 8
+  puts "Harry Chapin - Cats in the Cradle"
+  elsif input == 9
+    puts "Tokyo Police Club - Wait Up"
   end
 end
-puts play(songs)
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
