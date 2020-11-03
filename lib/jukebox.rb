@@ -197,5 +197,16 @@ end
 def run
   puts "Please enter a command:"
   input = gets.strip
+  
+  case input 
+    when "play"
+      play(songs)
+    when "help"
+      help
+    when "list"
+      list
+      when "exit"
+        exit
+  end
 end
 
