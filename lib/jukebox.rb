@@ -103,7 +103,7 @@ songs = [
 
 
 
-
+# Takes in a name and puts it out to the screen
 # def say_hello(name)
 #   "Hi #{name}!"
 # end
