@@ -197,25 +197,25 @@ end
 def run
   puts "Please enter a command:"
   input = gets.strip
-  #   case input
-  # when "play"
-  #   return play(songs)
-  # when "list"
-  #   return list(songs)
-  # when "help"
-  #   return help
-  # when "exit"
-  #   return exit_jukebox
-  # end
-  until input == "exit"
-    if input == "play"
-      return play
-    elsif input == "help"
-      return help
-    elsif input == "list"
-      return list
-    end
+    case input
+  when "play"
+    return play(songs)
+  when "list"
+    return list(songs)
+  when "help"
+    return help
+  when "exit"
+    return exit_jukebox
   end
-  return exit_jukebox
+  # until input == "exit"
+  #   if input == "play"
+  #     return play
+  #   elsif input == "help"
+  #     return help
+  #   elsif input == "list"
+  #     return list
+  #   end
+  # end
+  # return exit_jukebox
 end
 
