@@ -206,7 +206,7 @@ def run
     when "list"
       list
     when "exit"
-      exit
+      exit_jukebox
   end
 end
 
