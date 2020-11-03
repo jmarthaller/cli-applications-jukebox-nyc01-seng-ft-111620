@@ -155,7 +155,7 @@ def play(songs)
     puts "Playing #{songs[0]}"
   end
 end
-
+def play
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
