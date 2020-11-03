@@ -209,7 +209,7 @@ def run(songs)
   # end
   until input == "exit"
     if input == "play"
-      return play
+      return play(songs)
     elsif input == "help"
       return help
     elsif input == "list"
