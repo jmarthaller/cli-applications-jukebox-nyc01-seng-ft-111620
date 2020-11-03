@@ -198,15 +198,15 @@ def run
   puts "Please enter a command:"
   input = gets.strip
   binding.pry
-  case input 
-    when "play"
+  
+  until input == "exit" do
+    if input == "play"
       play(songs)
-    when "help"
+    elsif input == "help"
       help
-    when "list"
+    elsif input == "list"
       list
-    when "exit"
-      exit_jukebox
   end
+  exit_jukebox
 end
 
