@@ -205,8 +205,8 @@ def run
       help
     when "list"
       list
-      when "exit"
-        exit
+    when "exit"
+      exit
   end
 end
 
