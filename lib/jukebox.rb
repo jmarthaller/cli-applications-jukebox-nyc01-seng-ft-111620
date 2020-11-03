@@ -197,7 +197,6 @@ end
 def run
   puts "Please enter a command:"
   input = gets.strip
-  binding.pry
   
   until input == "exit" do
     if input == "play"
