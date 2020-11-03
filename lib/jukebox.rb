@@ -200,7 +200,7 @@ def run
   
   until input == "exit" do
     if input == "play"
-      play(songs)
+      play
     elsif input == "help"
       help
     elsif input == "list"
