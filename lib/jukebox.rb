@@ -169,6 +169,7 @@ def play(songs)
     puts "Harry Chapin - Cats in the Cradle"
   elsif input == "9"
     puts "Amos Lee - Keep It Loose, Keep It Tight"
+    binding.pry
   end
 end
 
