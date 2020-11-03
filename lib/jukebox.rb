@@ -171,6 +171,24 @@ def play(songs)
     puts "Amos Lee - Keep It Loose, Keep It Tight"
   elsif input == "Phoenix - 1901"
     puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+    elsif input == "Phoenix - 1901"
+    puts "Playing Phoenix - 1901"
+  else 
+    put s"
   end
 end
 
